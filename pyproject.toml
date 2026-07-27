@@ -1,0 +1,8 @@
+[project]
+name = "doorforge"
+version = "0.0.0"
+description = "M0 scaffold for a testable Amiga BBS door SDK"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 88

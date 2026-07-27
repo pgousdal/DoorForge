@@ -1,0 +1,38 @@
+#ifndef DOORFORGE_DOORFORGE_H
+#define DOORFORGE_DOORFORGE_H
+
+/*
+ * M0 PROVISIONAL HEADER
+ *
+ * This file documents the intended shape of the BBS-neutral API.
+ * It is not ABI-stable and contains no claimed ABBS field mapping.
+ */
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef enum DFExitReason {
+    DF_EXIT_NORMAL = 0,
+    DF_EXIT_USER_QUIT,
+    DF_EXIT_TIMEOUT,
+    DF_EXIT_CARRIER_LOSS,
+    DF_EXIT_BBS_SHUTDOWN,
+    DF_EXIT_ADAPTER_ERROR,
+    DF_EXIT_DOOR_FAILURE
+} DFExitReason;
+
+typedef struct DFSessionInfo {
+    unsigned long user_id;
+    unsigned int node_number;
+    unsigned int security_level;
+    unsigned int minutes_remaining;
+    int is_local;
+    const char *display_name;
+} DFSessionInfo;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

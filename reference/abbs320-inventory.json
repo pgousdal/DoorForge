@@ -1,0 +1,1562 @@
+{
+  "source_filename": "ABBS320_999.lha",
+  "source_sha256": "5e9fd4cbf871a2bbd4579a3f9b35a0cd2187676cab8886b16adbfe8b038380e4",
+  "source_size": 751581,
+  "entry_count": 222,
+  "entries": [
+    {
+      "path": "ABBS.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1233,
+      "compressed_size": 779,
+      "data_offset": 36
+    },
+    {
+      "path": "ABBS/ABBS-Icon",
+      "method": "-lh5-",
+      "uncompressed_size": 1233,
+      "compressed_size": 779,
+      "data_offset": 864
+    },
+    {
+      "path": "ABBS/ABBS.info",
+      "method": "-lh5-",
+      "uncompressed_size": 931,
+      "compressed_size": 412,
+      "data_offset": 1692
+    },
+    {
+      "path": "ABBS/ABBS.readme",
+      "method": "-lh5-",
+      "uncompressed_size": 750,
+      "compressed_size": 457,
+      "data_offset": 2155
+    },
+    {
+      "path": "ABBS/arkiv/xprym190.lzh",
+      "method": "-lh0-",
+      "uncompressed_size": 12874,
+      "compressed_size": 12874,
+      "data_offset": 2670
+    },
+    {
+      "path": "ABBS/arkiv/xprzmodem.lzh",
+      "method": "-lh0-",
+      "uncompressed_size": 74876,
+      "compressed_size": 74876,
+      "data_offset": 15603
+    },
+    {
+      "path": "ABBS/Bulletins/days1",
+      "method": "-lh5-",
+      "uncompressed_size": 413,
+      "compressed_size": 205,
+      "data_offset": 90534
+    },
+    {
+      "path": "ABBS/Bulletins/News1",
+      "method": "-lh5-",
+      "uncompressed_size": 222,
+      "compressed_size": 120,
+      "data_offset": 90794
+    },
+    {
+      "path": "ABBS/Bulletins/newsbl",
+      "method": "-lh0-",
+      "uncompressed_size": 52,
+      "compressed_size": 52,
+      "data_offset": 90970
+    },
+    {
+      "path": "ABBS/c/installer",
+      "method": "-lh5-",
+      "uncompressed_size": 109956,
+      "compressed_size": 60618,
+      "data_offset": 91073
+    },
+    {
+      "path": "ABBS/Catalogs/norsk/FE.catalog",
+      "method": "-lh5-",
+      "uncompressed_size": 5696,
+      "compressed_size": 2393,
+      "data_offset": 151756
+    },
+    {
+      "path": "ABBS/Conferences/FILEINFO.h",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154211
+    },
+    {
+      "path": "ABBS/Conferences/FILEINFO.m",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154273
+    },
+    {
+      "path": "ABBS/Conferences/NEWS.h",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154331
+    },
+    {
+      "path": "ABBS/Conferences/NEWS.m",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154389
+    },
+    {
+      "path": "ABBS/Conferences/POST.h",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154447
+    },
+    {
+      "path": "ABBS/Conferences/POST.m",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154505
+    },
+    {
+      "path": "ABBS/Conferences/USERINFO.h",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154567
+    },
+    {
+      "path": "ABBS/Conferences/USERINFO.m",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 154629
+    },
+    {
+      "path": "ABBS/Config/abbs.keys",
+      "method": "-lh5-",
+      "uncompressed_size": 185,
+      "compressed_size": 133,
+      "data_offset": 154685
+    },
+    {
+      "path": "ABBS/Config/banfile",
+      "method": "-lh5-",
+      "uncompressed_size": 328,
+      "compressed_size": 205,
+      "data_offset": 154872
+    },
+    {
+      "path": "ABBS/Config/colorfile",
+      "method": "-lh0-",
+      "uncompressed_size": 20,
+      "compressed_size": 20,
+      "data_offset": 155133
+    },
+    {
+      "path": "ABBS/Config/filebanfile",
+      "method": "-lh5-",
+      "uncompressed_size": 264,
+      "compressed_size": 169,
+      "data_offset": 155211
+    },
+    {
+      "path": "ABBS/Config/node1.config",
+      "method": "-lh5-",
+      "uncompressed_size": 476,
+      "compressed_size": 155,
+      "data_offset": 155439
+    },
+    {
+      "path": "ABBS/Config/startup.config",
+      "method": "-lh5-",
+      "uncompressed_size": 278,
+      "compressed_size": 180,
+      "data_offset": 155655
+    },
+    {
+      "path": "ABBS/Docs.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1233,
+      "compressed_size": 817,
+      "data_offset": 155884
+    },
+    {
+      "path": "ABBS/Docs/ABBS.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 15871,
+      "compressed_size": 5675,
+      "data_offset": 156754
+    },
+    {
+      "path": "ABBS/Docs/ABBS.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 548,
+      "data_offset": 162487
+    },
+    {
+      "path": "ABBS/Docs/ABBS.guide",
+      "method": "-lh5-",
+      "uncompressed_size": 160780,
+      "compressed_size": 53793,
+      "data_offset": 163090
+    },
+    {
+      "path": "ABBS/Docs/ABBS.guide.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 543,
+      "data_offset": 216943
+    },
+    {
+      "path": "ABBS/Docs/abbsrexx.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 18873,
+      "compressed_size": 4621,
+      "data_offset": 217543
+    },
+    {
+      "path": "ABBS/Docs/abbsrexx.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 541,
+      "data_offset": 222226
+    },
+    {
+      "path": "ABBS/Docs/abbsrexx.guide",
+      "method": "-lh5-",
+      "uncompressed_size": 5651,
+      "compressed_size": 1864,
+      "data_offset": 222826
+    },
+    {
+      "path": "ABBS/Docs/abbsusers.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 258,
+      "compressed_size": 181,
+      "data_offset": 224748
+    },
+    {
+      "path": "ABBS/Docs/abbsusers.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 542,
+      "data_offset": 224992
+    },
+    {
+      "path": "ABBS/Docs/AddFile.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 2013,
+      "compressed_size": 992,
+      "data_offset": 225590
+    },
+    {
+      "path": "ABBS/Docs/AddFile.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 226643
+    },
+    {
+      "path": "ABBS/Docs/AddMsg.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 685,
+      "compressed_size": 353,
+      "data_offset": 227242
+    },
+    {
+      "path": "ABBS/Docs/AddMsg.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 227655
+    },
+    {
+      "path": "ABBS/Docs/Broadcast.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 372,
+      "compressed_size": 237,
+      "data_offset": 228257
+    },
+    {
+      "path": "ABBS/Docs/Broadcast.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 543,
+      "data_offset": 228557
+    },
+    {
+      "path": "ABBS/Docs/checkconferences.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 704,
+      "compressed_size": 393,
+      "data_offset": 229165
+    },
+    {
+      "path": "ABBS/Docs/checkconferences.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 543,
+      "data_offset": 229628
+    },
+    {
+      "path": "ABBS/Docs/ConfigBBS.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 7819,
+      "compressed_size": 2917,
+      "data_offset": 230229
+    },
+    {
+      "path": "ABBS/Docs/ConfigBBS.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 233209
+    },
+    {
+      "path": "ABBS/Docs/ConfigNode.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 12361,
+      "compressed_size": 4408,
+      "data_offset": 233812
+    },
+    {
+      "path": "ABBS/Docs/ConfigNode.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 238284
+    },
+    {
+      "path": "ABBS/Docs/Doors.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 2625,
+      "compressed_size": 1276,
+      "data_offset": 238882
+    },
+    {
+      "path": "ABBS/Docs/Doors.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 240217
+    },
+    {
+      "path": "ABBS/Docs/FileCache.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 381,
+      "compressed_size": 226,
+      "data_offset": 240819
+    },
+    {
+      "path": "ABBS/Docs/FileCache.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 546,
+      "data_offset": 241108
+    },
+    {
+      "path": "ABBS/Docs/flextractor.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 2449,
+      "compressed_size": 1046,
+      "data_offset": 241714
+    },
+    {
+      "path": "ABBS/Docs/flextractor.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 545,
+      "data_offset": 242825
+    },
+    {
+      "path": "ABBS/Docs/flmaker.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 2059,
+      "compressed_size": 704,
+      "data_offset": 243426
+    },
+    {
+      "path": "ABBS/Docs/Installation.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 3243,
+      "compressed_size": 1351,
+      "data_offset": 244191
+    },
+    {
+      "path": "ABBS/Docs/Installation.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 245608
+    },
+    {
+      "path": "ABBS/Docs/ListFiles.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 546,
+      "data_offset": 246215
+    },
+    {
+      "path": "ABBS/Docs/MiscMenu.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 907,
+      "compressed_size": 455,
+      "data_offset": 246818
+    },
+    {
+      "path": "ABBS/Docs/MiscMenu.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 247335
+    },
+    {
+      "path": "ABBS/Docs/scripts.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 950,
+      "compressed_size": 361,
+      "data_offset": 247935
+    },
+    {
+      "path": "ABBS/Docs/scripts.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 541,
+      "data_offset": 248357
+    },
+    {
+      "path": "ABBS/Docs/SysopAvail.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 171,
+      "compressed_size": 114,
+      "data_offset": 248957
+    },
+    {
+      "path": "ABBS/Docs/SysopAvail.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 547,
+      "data_offset": 249135
+    },
+    {
+      "path": "ABBS/Docs/ToggleCache.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 381,
+      "compressed_size": 226,
+      "data_offset": 249742
+    },
+    {
+      "path": "ABBS/Docs/ToggleCache.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 544,
+      "data_offset": 250033
+    },
+    {
+      "path": "ABBS/Docs/usereditor.doc",
+      "method": "-lh5-",
+      "uncompressed_size": 4564,
+      "compressed_size": 2214,
+      "data_offset": 250636
+    },
+    {
+      "path": "ABBS/Docs/usereditor.doc.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1437,
+      "compressed_size": 547,
+      "data_offset": 252914
+    },
+    {
+      "path": "ABBS/Doors/DAYS/DAYS.ABBS",
+      "method": "-lh5-",
+      "uncompressed_size": 5507,
+      "compressed_size": 1940,
+      "data_offset": 253521
+    },
+    {
+      "path": "ABBS/Doors/DAYS/DAYS.DOC",
+      "method": "-lh5-",
+      "uncompressed_size": 2344,
+      "compressed_size": 1158,
+      "data_offset": 255520
+    },
+    {
+      "path": "ABBS/Doors/Node0Config",
+      "method": "-lh5-",
+      "uncompressed_size": 104,
+      "compressed_size": 77,
+      "data_offset": 256735
+    },
+    {
+      "path": "ABBS/Doors/Node0Menu",
+      "method": "-lh0-",
+      "uncompressed_size": 11,
+      "compressed_size": 11,
+      "data_offset": 256867
+    },
+    {
+      "path": "ABBS/FileHeaders/PRIVATE.fl",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 256940
+    },
+    {
+      "path": "ABBS/FileHeaders/UPLOAD.fl",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 257001
+    },
+    {
+      "path": "ABBS/Files/Private/",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 257055
+    },
+    {
+      "path": "ABBS/Files/Upload/",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 257108
+    },
+    {
+      "path": "ABBS/file_id.diz",
+      "method": "-lh5-",
+      "uncompressed_size": 504,
+      "compressed_size": 226,
+      "data_offset": 257159
+    },
+    {
+      "path": "ABBS/Help/FE.guide",
+      "method": "-lh5-",
+      "uncompressed_size": 20233,
+      "compressed_size": 5001,
+      "data_offset": 257438
+    },
+    {
+      "path": "ABBS/History",
+      "method": "-lh5-",
+      "uncompressed_size": 15529,
+      "compressed_size": 6323,
+      "data_offset": 262486
+    },
+    {
+      "path": "ABBS/Hold/node1/",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 268860
+    },
+    {
+      "path": "ABBS/Hold/node2/",
+      "method": "-lh0-",
+      "uncompressed_size": 0,
+      "compressed_size": 0,
+      "data_offset": 268911
+    },
+    {
+      "path": "ABBS/Install ABBS",
+      "method": "-lh5-",
+      "uncompressed_size": 17493,
+      "compressed_size": 4716,
+      "data_offset": 268963
+    },
+    {
+      "path": "ABBS/Install ABBS.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1887,
+      "compressed_size": 1016,
+      "data_offset": 273736
+    },
+    {
+      "path": "ABBS/installer",
+      "method": "-lh5-",
+      "uncompressed_size": 109956,
+      "compressed_size": 60618,
+      "data_offset": 274801
+    },
+    {
+      "path": "ABBS/l/fifo-handler",
+      "method": "-lh5-",
+      "uncompressed_size": 7336,
+      "compressed_size": 4301,
+      "data_offset": 335473
+    },
+    {
+      "path": "ABBS/libs/fifo.library",
+      "method": "-lh5-",
+      "uncompressed_size": 4256,
+      "compressed_size": 2554,
+      "data_offset": 339831
+    },
+    {
+      "path": "ABBS/libs/xprymodem.library",
+      "method": "-lh5-",
+      "uncompressed_size": 14432,
+      "compressed_size": 8209,
+      "data_offset": 342447
+    },
+    {
+      "path": "ABBS/libs/XPRZmodem.library",
+      "method": "-lh5-",
+      "uncompressed_size": 17752,
+      "compressed_size": 10333,
+      "data_offset": 350718
+    },
+    {
+      "path": "ABBS/s/cookies",
+      "method": "-lh5-",
+      "uncompressed_size": 129849,
+      "compressed_size": 57403,
+      "data_offset": 361100
+    },
+    {
+      "path": "ABBS/s/DITOPCONF.exclude",
+      "method": "-lh0-",
+      "uncompressed_size": 35,
+      "compressed_size": 35,
+      "data_offset": 418562
+    },
+    {
+      "path": "ABBS/s/DITOPLOG.exclude",
+      "method": "-lh0-",
+      "uncompressed_size": 17,
+      "compressed_size": 17,
+      "data_offset": 418655
+    },
+    {
+      "path": "ABBS/s/DITOPLOG.ratio",
+      "method": "-lh5-",
+      "uncompressed_size": 970,
+      "compressed_size": 466,
+      "data_offset": 418728
+    },
+    {
+      "path": "ABBS/s/DITOPWRITERS.exclude",
+      "method": "-lh0-",
+      "uncompressed_size": 17,
+      "compressed_size": 17,
+      "data_offset": 419256
+    },
+    {
+      "path": "ABBS/sys/Check",
+      "method": "-lh5-",
+      "uncompressed_size": 651,
+      "compressed_size": 231,
+      "data_offset": 419322
+    },
+    {
+      "path": "ABBS/sys/Download.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 142,
+      "compressed_size": 108,
+      "data_offset": 419610
+    },
+    {
+      "path": "ABBS/sys/extract.arc",
+      "method": "-lh0-",
+      "uncompressed_size": 134,
+      "compressed_size": 134,
+      "data_offset": 419773
+    },
+    {
+      "path": "ABBS/sys/extract.lha",
+      "method": "-lh0-",
+      "uncompressed_size": 147,
+      "compressed_size": 147,
+      "data_offset": 419962
+    },
+    {
+      "path": "ABBS/sys/extract.lzh",
+      "method": "-lh0-",
+      "uncompressed_size": 147,
+      "compressed_size": 147,
+      "data_offset": 420164
+    },
+    {
+      "path": "ABBS/sys/extract.zoo.donotuse",
+      "method": "-lh5-",
+      "uncompressed_size": 195,
+      "compressed_size": 149,
+      "data_offset": 420375
+    },
+    {
+      "path": "ABBS/sys/login/Clock.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 538,
+      "compressed_size": 135,
+      "data_offset": 420584
+    },
+    {
+      "path": "ABBS/sys/login/Clock1.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 4550,
+      "compressed_size": 1258,
+      "data_offset": 420780
+    },
+    {
+      "path": "ABBS/sys/LoginScript.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 2529,
+      "compressed_size": 945,
+      "data_offset": 422098
+    },
+    {
+      "path": "ABBS/sys/logout.script",
+      "method": "-lh0-",
+      "uncompressed_size": 42,
+      "compressed_size": 42,
+      "data_offset": 423100
+    },
+    {
+      "path": "ABBS/sys/LogoutScript.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 418,
+      "compressed_size": 273,
+      "data_offset": 423203
+    },
+    {
+      "path": "ABBS/sys/Newuser.abbs",
+      "method": "-lh5-",
+      "uncompressed_size": 8124,
+      "compressed_size": 2314,
+      "data_offset": 423532
+    },
+    {
+      "path": "ABBS/sys/newuser/ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 404,
+      "compressed_size": 225,
+      "data_offset": 425902
+    },
+    {
+      "path": "ABBS/sys/newuser/Archives",
+      "method": "-lh5-",
+      "uncompressed_size": 352,
+      "compressed_size": 94,
+      "data_offset": 426187
+    },
+    {
+      "path": "ABBS/sys/newuser/color",
+      "method": "-lh5-",
+      "uncompressed_size": 248,
+      "compressed_size": 151,
+      "data_offset": 426338
+    },
+    {
+      "path": "ABBS/sys/newuser/expertlevel",
+      "method": "-lh5-",
+      "uncompressed_size": 140,
+      "compressed_size": 113,
+      "data_offset": 426552
+    },
+    {
+      "path": "ABBS/sys/newuser/length",
+      "method": "-lh5-",
+      "uncompressed_size": 83,
+      "compressed_size": 72,
+      "data_offset": 426723
+    },
+    {
+      "path": "ABBS/sys/newuser/Protocol",
+      "method": "-lh5-",
+      "uncompressed_size": 351,
+      "compressed_size": 129,
+      "data_offset": 426855
+    },
+    {
+      "path": "ABBS/sys/newuser/WELCOME",
+      "method": "-lh5-",
+      "uncompressed_size": 88,
+      "compressed_size": 70,
+      "data_offset": 427043
+    },
+    {
+      "path": "ABBS/sys/pack.arc",
+      "method": "-lh0-",
+      "uncompressed_size": 133,
+      "compressed_size": 133,
+      "data_offset": 427165
+    },
+    {
+      "path": "ABBS/sys/pack.lha",
+      "method": "-lh0-",
+      "uncompressed_size": 126,
+      "compressed_size": 126,
+      "data_offset": 427350
+    },
+    {
+      "path": "ABBS/sys/pack.lzh",
+      "method": "-lh0-",
+      "uncompressed_size": 129,
+      "compressed_size": 129,
+      "data_offset": 427528
+    },
+    {
+      "path": "ABBS/sys/pack.zip",
+      "method": "-lh0-",
+      "uncompressed_size": 244,
+      "compressed_size": 244,
+      "data_offset": 427709
+    },
+    {
+      "path": "ABBS/sys/pack.zoo",
+      "method": "-lh0-",
+      "uncompressed_size": 141,
+      "compressed_size": 141,
+      "data_offset": 428005
+    },
+    {
+      "path": "ABBS/sys/Questionnaire.ABBS",
+      "method": "-lh5-",
+      "uncompressed_size": 722,
+      "compressed_size": 320,
+      "data_offset": 428208
+    },
+    {
+      "path": "ABBS/sys/shell-startup",
+      "method": "-lh5-",
+      "uncompressed_size": 118,
+      "compressed_size": 113,
+      "data_offset": 428585
+    },
+    {
+      "path": "ABBS/sys/Upload.script",
+      "method": "-lh5-",
+      "uncompressed_size": 662,
+      "compressed_size": 238,
+      "data_offset": 428755
+    },
+    {
+      "path": "ABBS/sys/view",
+      "method": "-lh5-",
+      "uncompressed_size": 374,
+      "compressed_size": 163,
+      "data_offset": 429041
+    },
+    {
+      "path": "ABBS/Text/boardstat_",
+      "method": "-lh5-",
+      "uncompressed_size": 601,
+      "compressed_size": 195,
+      "data_offset": 429259
+    },
+    {
+      "path": "ABBS/Text/BulletinHelp",
+      "method": "-lh5-",
+      "uncompressed_size": 270,
+      "compressed_size": 143,
+      "data_offset": 429511
+    },
+    {
+      "path": "ABBS/Text/charsetlist",
+      "method": "-lh5-",
+      "uncompressed_size": 1030,
+      "compressed_size": 432,
+      "data_offset": 429710
+    },
+    {
+      "path": "ABBS/Text/charsetlist.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 340,
+      "compressed_size": 130,
+      "data_offset": 430203
+    },
+    {
+      "path": "ABBS/Text/chatmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 527,
+      "compressed_size": 157,
+      "data_offset": 430386
+    },
+    {
+      "path": "ABBS/Text/chatmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 504,
+      "compressed_size": 184,
+      "data_offset": 430601
+    },
+    {
+      "path": "ABBS/Text/chatmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 644,
+      "compressed_size": 227,
+      "data_offset": 430842
+    },
+    {
+      "path": "ABBS/Text/conferencelist",
+      "method": "-lh5-",
+      "uncompressed_size": 97,
+      "compressed_size": 85,
+      "data_offset": 431128
+    },
+    {
+      "path": "ABBS/Text/Conf_text/FILEINFO",
+      "method": "-lh5-",
+      "uncompressed_size": 940,
+      "compressed_size": 231,
+      "data_offset": 431276
+    },
+    {
+      "path": "ABBS/Text/Conf_text/NEWS",
+      "method": "-lh5-",
+      "uncompressed_size": 940,
+      "compressed_size": 231,
+      "data_offset": 431566
+    },
+    {
+      "path": "ABBS/Text/Conf_text/POST",
+      "method": "-lh5-",
+      "uncompressed_size": 940,
+      "compressed_size": 236,
+      "data_offset": 431856
+    },
+    {
+      "path": "ABBS/Text/Conf_text/USERINFO",
+      "method": "-lh5-",
+      "uncompressed_size": 940,
+      "compressed_size": 238,
+      "data_offset": 432155
+    },
+    {
+      "path": "ABBS/Text/download",
+      "method": "-lh5-",
+      "uncompressed_size": 295,
+      "compressed_size": 123,
+      "data_offset": 432446
+    },
+    {
+      "path": "ABBS/Text/download.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 540,
+      "compressed_size": 179,
+      "data_offset": 432627
+    },
+    {
+      "path": "ABBS/Text/download.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 564,
+      "compressed_size": 224,
+      "data_offset": 432863
+    },
+    {
+      "path": "ABBS/Text/expertmodehelp",
+      "method": "-lh5-",
+      "uncompressed_size": 567,
+      "compressed_size": 312,
+      "data_offset": 433146
+    },
+    {
+      "path": "ABBS/Text/failedpassword",
+      "method": "-lh0-",
+      "uncompressed_size": 30,
+      "compressed_size": 30,
+      "data_offset": 433517
+    },
+    {
+      "path": "ABBS/Text/filelist",
+      "method": "-lh0-",
+      "uncompressed_size": 53,
+      "compressed_size": 53,
+      "data_offset": 433600
+    },
+    {
+      "path": "ABBS/Text/filemenu",
+      "method": "-lh5-",
+      "uncompressed_size": 814,
+      "compressed_size": 300,
+      "data_offset": 433706
+    },
+    {
+      "path": "ABBS/Text/filemenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1276,
+      "compressed_size": 412,
+      "data_offset": 434064
+    },
+    {
+      "path": "ABBS/Text/filemenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1438,
+      "compressed_size": 442,
+      "data_offset": 434533
+    },
+    {
+      "path": "ABBS/Text/globalmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 624,
+      "compressed_size": 302,
+      "data_offset": 435030
+    },
+    {
+      "path": "ABBS/Text/globalmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 934,
+      "compressed_size": 398,
+      "data_offset": 435392
+    },
+    {
+      "path": "ABBS/Text/globalmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1077,
+      "compressed_size": 419,
+      "data_offset": 435849
+    },
+    {
+      "path": "ABBS/Text/Grabformat",
+      "method": "-lh5-",
+      "uncompressed_size": 145,
+      "compressed_size": 94,
+      "data_offset": 436323
+    },
+    {
+      "path": "ABBS/Text/Grabformat.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 301,
+      "compressed_size": 147,
+      "data_offset": 436477
+    },
+    {
+      "path": "ABBS/Text/GrabFormat.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 363,
+      "compressed_size": 167,
+      "data_offset": 436683
+    },
+    {
+      "path": "ABBS/Text/loginfile",
+      "method": "-lh5-",
+      "uncompressed_size": 905,
+      "compressed_size": 242,
+      "data_offset": 436904
+    },
+    {
+      "path": "ABBS/Text/loginfile.bak",
+      "method": "-lh5-",
+      "uncompressed_size": 904,
+      "compressed_size": 242,
+      "data_offset": 437204
+    },
+    {
+      "path": "ABBS/Text/logintxt1",
+      "method": "-lh5-",
+      "uncompressed_size": 1236,
+      "compressed_size": 599,
+      "data_offset": 437500
+    },
+    {
+      "path": "ABBS/Text/logintxt2",
+      "method": "-lh5-",
+      "uncompressed_size": 641,
+      "compressed_size": 378,
+      "data_offset": 438153
+    },
+    {
+      "path": "ABBS/Text/logoutfile",
+      "method": "-lh5-",
+      "uncompressed_size": 212,
+      "compressed_size": 77,
+      "data_offset": 438586
+    },
+    {
+      "path": "ABBS/Text/logoutfile.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 464,
+      "compressed_size": 130,
+      "data_offset": 438723
+    },
+    {
+      "path": "ABBS/Text/logoutfile.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 602,
+      "compressed_size": 176,
+      "data_offset": 438912
+    },
+    {
+      "path": "ABBS/Text/mainmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 305,
+      "compressed_size": 120,
+      "data_offset": 439141
+    },
+    {
+      "path": "ABBS/Text/mainmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 446,
+      "compressed_size": 183,
+      "data_offset": 439319
+    },
+    {
+      "path": "ABBS/Text/mainmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 544,
+      "compressed_size": 202,
+      "data_offset": 439559
+    },
+    {
+      "path": "ABBS/Text/maintenance",
+      "method": "-lh5-",
+      "uncompressed_size": 749,
+      "compressed_size": 247,
+      "data_offset": 439817
+    },
+    {
+      "path": "ABBS/Text/maintenance.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1055,
+      "compressed_size": 330,
+      "data_offset": 440125
+    },
+    {
+      "path": "ABBS/Text/maintenance.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1203,
+      "compressed_size": 357,
+      "data_offset": 440515
+    },
+    {
+      "path": "ABBS/Text/markmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 1242,
+      "compressed_size": 434,
+      "data_offset": 440925
+    },
+    {
+      "path": "ABBS/Text/markmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1490,
+      "compressed_size": 511,
+      "data_offset": 441417
+    },
+    {
+      "path": "ABBS/Text/markmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1705,
+      "compressed_size": 539,
+      "data_offset": 441985
+    },
+    {
+      "path": "ABBS/Text/messagefilterhelp",
+      "method": "-lh5-",
+      "uncompressed_size": 359,
+      "compressed_size": 208,
+      "data_offset": 442586
+    },
+    {
+      "path": "ABBS/Text/MiscMenu",
+      "method": "-lh0-",
+      "uncompressed_size": 30,
+      "compressed_size": 30,
+      "data_offset": 442847
+    },
+    {
+      "path": "ABBS/Text/MiscMenu.ansi",
+      "method": "-lh0-",
+      "uncompressed_size": 30,
+      "compressed_size": 30,
+      "data_offset": 442935
+    },
+    {
+      "path": "ABBS/Text/MiscMenu.raw",
+      "method": "-lh0-",
+      "uncompressed_size": 30,
+      "compressed_size": 30,
+      "data_offset": 443022
+    },
+    {
+      "path": "ABBS/Text/nodemenu",
+      "method": "-lh5-",
+      "uncompressed_size": 1883,
+      "compressed_size": 293,
+      "data_offset": 443105
+    },
+    {
+      "path": "ABBS/Text/nodepublicmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 1036,
+      "compressed_size": 250,
+      "data_offset": 443457
+    },
+    {
+      "path": "ABBS/Text/postloginfile",
+      "method": "-lh5-",
+      "uncompressed_size": 895,
+      "compressed_size": 218,
+      "data_offset": 443765
+    },
+    {
+      "path": "ABBS/Text/postloginfile.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1440,
+      "compressed_size": 245,
+      "data_offset": 444046
+    },
+    {
+      "path": "ABBS/Text/postloginfile.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1593,
+      "compressed_size": 373,
+      "data_offset": 444353
+    },
+    {
+      "path": "ABBS/Text/protocolslist",
+      "method": "-lh5-",
+      "uncompressed_size": 457,
+      "compressed_size": 172,
+      "data_offset": 444784
+    },
+    {
+      "path": "ABBS/Text/protocolslist.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 576,
+      "compressed_size": 227,
+      "data_offset": 445019
+    },
+    {
+      "path": "ABBS/Text/protocolslist.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 851,
+      "compressed_size": 256,
+      "data_offset": 445308
+    },
+    {
+      "path": "ABBS/Text/readmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 1009,
+      "compressed_size": 343,
+      "data_offset": 445617
+    },
+    {
+      "path": "ABBS/Text/readmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1278,
+      "compressed_size": 421,
+      "data_offset": 446018
+    },
+    {
+      "path": "ABBS/Text/readmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1506,
+      "compressed_size": 477,
+      "data_offset": 446496
+    },
+    {
+      "path": "ABBS/Text/scrformatlist",
+      "method": "-lh5-",
+      "uncompressed_size": 351,
+      "compressed_size": 130,
+      "data_offset": 447031
+    },
+    {
+      "path": "ABBS/Text/scrformatlist.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 582,
+      "compressed_size": 175,
+      "data_offset": 447224
+    },
+    {
+      "path": "ABBS/Text/scrformatlist.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 692,
+      "compressed_size": 199,
+      "data_offset": 447461
+    },
+    {
+      "path": "ABBS/Text/searchmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 495,
+      "compressed_size": 158,
+      "data_offset": 447715
+    },
+    {
+      "path": "ABBS/Text/searchmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 508,
+      "compressed_size": 206,
+      "data_offset": 447933
+    },
+    {
+      "path": "ABBS/Text/searchmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 745,
+      "compressed_size": 233,
+      "data_offset": 448198
+    },
+    {
+      "path": "ABBS/Text/SigOpmaintenance",
+      "method": "-lh5-",
+      "uncompressed_size": 349,
+      "compressed_size": 134,
+      "data_offset": 448492
+    },
+    {
+      "path": "ABBS/Text/SigOpmaintenance.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 510,
+      "compressed_size": 201,
+      "data_offset": 448692
+    },
+    {
+      "path": "ABBS/Text/SigOpmaintenance.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 610,
+      "compressed_size": 223,
+      "data_offset": 448958
+    },
+    {
+      "path": "ABBS/Text/sigopmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 354,
+      "compressed_size": 140,
+      "data_offset": 449235
+    },
+    {
+      "path": "ABBS/Text/sigopmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 525,
+      "compressed_size": 210,
+      "data_offset": 449434
+    },
+    {
+      "path": "ABBS/Text/sigopmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 625,
+      "compressed_size": 229,
+      "data_offset": 449702
+    },
+    {
+      "path": "ABBS/Text/sysopmenu",
+      "method": "-lh5-",
+      "uncompressed_size": 1207,
+      "compressed_size": 403,
+      "data_offset": 449985
+    },
+    {
+      "path": "ABBS/Text/sysopmenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 1592,
+      "compressed_size": 493,
+      "data_offset": 450447
+    },
+    {
+      "path": "ABBS/Text/sysopmenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 2027,
+      "compressed_size": 548,
+      "data_offset": 450998
+    },
+    {
+      "path": "ABBS/Text/upload",
+      "method": "-lh5-",
+      "uncompressed_size": 203,
+      "compressed_size": 102,
+      "data_offset": 451597
+    },
+    {
+      "path": "ABBS/Text/upload.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 470,
+      "compressed_size": 157,
+      "data_offset": 451755
+    },
+    {
+      "path": "ABBS/Text/upload.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 405,
+      "compressed_size": 178,
+      "data_offset": 451967
+    },
+    {
+      "path": "ABBS/Text/utilitymenu",
+      "method": "-lh5-",
+      "uncompressed_size": 637,
+      "compressed_size": 226,
+      "data_offset": 452201
+    },
+    {
+      "path": "ABBS/Text/utilitymenu.ansi",
+      "method": "-lh5-",
+      "uncompressed_size": 932,
+      "compressed_size": 307,
+      "data_offset": 452488
+    },
+    {
+      "path": "ABBS/Text/utilitymenu.raw",
+      "method": "-lh5-",
+      "uncompressed_size": 1047,
+      "compressed_size": 330,
+      "data_offset": 452855
+    },
+    {
+      "path": "ABBS/Utils.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1233,
+      "compressed_size": 736,
+      "data_offset": 453235
+    },
+    {
+      "path": "ABBS/Utils/abbsusers",
+      "method": "-lh5-",
+      "uncompressed_size": 2600,
+      "compressed_size": 1601,
+      "data_offset": 454026
+    },
+    {
+      "path": "ABBS/Utils/AddFile",
+      "method": "-lh5-",
+      "uncompressed_size": 15780,
+      "compressed_size": 9645,
+      "data_offset": 455680
+    },
+    {
+      "path": "ABBS/Utils/AddMsg",
+      "method": "-lh5-",
+      "uncompressed_size": 13860,
+      "compressed_size": 8565,
+      "data_offset": 465377
+    },
+    {
+      "path": "ABBS/Utils/Broadcast",
+      "method": "-lh5-",
+      "uncompressed_size": 6252,
+      "compressed_size": 4208,
+      "data_offset": 473997
+    },
+    {
+      "path": "ABBS/Utils/checkconferences",
+      "method": "-lh5-",
+      "uncompressed_size": 14280,
+      "compressed_size": 9083,
+      "data_offset": 478267
+    },
+    {
+      "path": "ABBS/Utils/ConfigBBS",
+      "method": "-lh5-",
+      "uncompressed_size": 30808,
+      "compressed_size": 16042,
+      "data_offset": 487405
+    },
+    {
+      "path": "ABBS/Utils/ConfigBBS.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1603,
+      "compressed_size": 1009,
+      "data_offset": 503507
+    },
+    {
+      "path": "ABBS/Utils/Confignode",
+      "method": "-lh5-",
+      "uncompressed_size": 36664,
+      "compressed_size": 16703,
+      "data_offset": 504572
+    },
+    {
+      "path": "ABBS/Utils/Confignode.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1603,
+      "compressed_size": 1011,
+      "data_offset": 521336
+    },
+    {
+      "path": "ABBS/Utils/ConvertConfig",
+      "method": "-lh5-",
+      "uncompressed_size": 12800,
+      "compressed_size": 7648,
+      "data_offset": 522406
+    },
+    {
+      "path": "ABBS/Utils/ditopconfs",
+      "method": "-lh5-",
+      "uncompressed_size": 16592,
+      "compressed_size": 10257,
+      "data_offset": 530110
+    },
+    {
+      "path": "ABBS/Utils/ditoplogins",
+      "method": "-lh5-",
+      "uncompressed_size": 17444,
+      "compressed_size": 10661,
+      "data_offset": 540424
+    },
+    {
+      "path": "ABBS/Utils/ditopwriters",
+      "method": "-lh5-",
+      "uncompressed_size": 16312,
+      "compressed_size": 10104,
+      "data_offset": 551143
+    },
+    {
+      "path": "ABBS/Utils/FE",
+      "method": "-lh5-",
+      "uncompressed_size": 73372,
+      "compressed_size": 30454,
+      "data_offset": 561295
+    },
+    {
+      "path": "ABBS/Utils/FE.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1603,
+      "compressed_size": 1012,
+      "data_offset": 591802
+    },
+    {
+      "path": "ABBS/Utils/flextractor",
+      "method": "-lh5-",
+      "uncompressed_size": 16880,
+      "compressed_size": 10235,
+      "data_offset": 592871
+    },
+    {
+      "path": "ABBS/Utils/flmaker",
+      "method": "-lh5-",
+      "uncompressed_size": 13860,
+      "compressed_size": 8692,
+      "data_offset": 603159
+    },
+    {
+      "path": "ABBS/Utils/SysopAvail",
+      "method": "-lh5-",
+      "uncompressed_size": 2872,
+      "compressed_size": 1634,
+      "data_offset": 611907
+    },
+    {
+      "path": "ABBS/Utils/UserEditor",
+      "method": "-lh5-",
+      "uncompressed_size": 27772,
+      "compressed_size": 13476,
+      "data_offset": 613597
+    },
+    {
+      "path": "ABBS/Utils/UserEditor.info",
+      "method": "-lh5-",
+      "uncompressed_size": 1603,
+      "compressed_size": 1011,
+      "data_offset": 627134
+    },
+    {
+      "path": "ABBS/Utils/ZapFile",
+      "method": "-lh5-",
+      "uncompressed_size": 6792,
+      "compressed_size": 4522,
+      "data_offset": 628198
+    },
+    {
+      "path": "ABBS/ABBS",
+      "method": "-lh5-",
+      "uncompressed_size": 251604,
+      "compressed_size": 118816,
+      "data_offset": 632764
+    }
+  ]
+}
