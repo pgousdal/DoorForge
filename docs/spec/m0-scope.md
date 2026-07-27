@@ -16,8 +16,8 @@ can be implemented without inventing undocumented behavior.
 - [x] Provisional session model written.
 - [x] Host-side Hello Door executable provided.
 - [x] Automated M0 checks provided.
-- [ ] Original compressed door documentation extracted and reviewed.
-- [ ] Live ABBS invocation traced.
+- [ ] Original compressed door documentation extracted and reviewed (M1).
+- [ ] Live ABBS invocation traced (M2+ — requires runtime access).
 
-The final two items are intentional M1 prerequisites and prevent M0 from
-overclaiming protocol support.
+These items were intentionally deferred to prevent M0 from overclaiming
+protocol support. See `docs/m1-plan.md` for the M1 evidence workflow.

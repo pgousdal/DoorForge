@@ -105,21 +105,24 @@ or quoted:
   component;
 - native binary ABI or required compiler conventions.
 
-## Recommended first adapter
+## Recommended adapter order
 
-The safest initial implementation order is:
+After M1 evidence is collected, the implementation order should be:
 
-1. `host` adapter for deterministic tests;
-2. `abbs-script` adapter based on verified `.ABBS` behavior;
-3. `abbs-arexx` bridge for session and BBS commands;
-4. native Amiga process adapter only after its contract is documented.
+1. `host` adapter for deterministic tests (M0 — complete);
+2. `abbs-script` adapter based on verified `.ABBS` behavior (planned M2);
+3. `abbs-arexx` bridge for session and BBS commands (planned M3);
+4. native Amiga process adapter only after its contract is documented (planned M4).
 
-## M1 research checklist
+## M1 evidence checklist (from `docs/m1-plan.md`)
 
 - Extract and read `Docs/Doors.doc`.
 - Extract and read both `Docs/abbsrexx` documents.
 - Inspect `Doors/DAYS/DAYS.ABBS` and `DAYS.DOC`.
 - Inspect `Doors/Node0Config` and `Node0Menu`.
+
+## M2 prerequisites (after M1 evidence)
+
 - Trace one bundled door invocation on a running ABBS node.
 - Record inputs, outputs, return codes, node behavior, timeouts, and disconnects.
 - Write a minimal, manually verified Hello Door.

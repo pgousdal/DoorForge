@@ -6,3 +6,4 @@ dist/
 *.lha
 *.lzh
 vendor/abbs/
+M0-TEST-RESULTS.txt

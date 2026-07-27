@@ -23,6 +23,26 @@ ABBS 3.20 is the first target.
 9. Run the full test suite before declaring a milestone complete.
 10. Document all assumptions and separate them from verified facts.
 
+## Evidence-handling principles
+
+11. **Unknown is safer than a fabricated value.** If evidence does not support
+    a field or behaviour, leave it unknown rather than inventing a plausible
+    mapping.
+12. **Partial evidence must remain partial.** Do not upgrade partial findings
+    to verified facts without new primary source confirmation.
+13. **Runtime assumptions are not verified facts.** Behaviour observed on a
+    live system must be tagged `[Runtime]` and kept distinct from documented
+    intent.
+14. **Adapters expose gaps, they do not hide them.** When evidence is
+    insufficient to populate a session field, the adapter should document the
+    gap rather than invent a value.
+15. **The public API evolves from verified evidence, not the reverse.** Do
+    not force evidence to fit an existing API shape. Amend the API when
+    evidence contradicts it.
+16. **Do not add speculative API surface.** Every field, enum value, or
+    function must be justified by existing or anticipated evidence from at
+    least one BBS platform.
+
 ## M0 constraints
 
 M0 is analysis and scaffolding only. It must not claim that a native ABBS door
