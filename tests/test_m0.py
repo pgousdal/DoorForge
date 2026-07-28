@@ -40,12 +40,13 @@ class M0Tests(unittest.TestCase):
 
     def test_session_validation(self):
         Session(
-            user_id=1,
             node_number=0,
-            security_level=10,
-            minutes_remaining=30,
-            is_local=False,
             display_name="Test User",
+            is_local=False,
+            minutes_remaining=30,
+            is_sysop=False,
+            user_id=1,
+            security_level=10,
         ).validate()
 
     def test_hello_door(self):

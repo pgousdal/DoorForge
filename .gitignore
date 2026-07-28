@@ -7,3 +7,6 @@ dist/
 *.lzh
 vendor/abbs/
 M0-TEST-RESULTS.txt
+
+# Native Amiga helper build artifact
+src/doorforge/arexx/native/arexx-cli

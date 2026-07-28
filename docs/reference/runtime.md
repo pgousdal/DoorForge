@@ -65,6 +65,56 @@ RC=0 if normal mode. RC=5 if no user on node.
 control characters. `RAW OFF` re-enables parsing. This is used for
 full-screen applications and binary protocols.
 
+## Native ARexx transport observations (M3)
+
+### Port visibility [Runtime — planned]
+
+The `arexx-cli` native helper finds the ABBS ARexx port using
+`FindPort()` with the verified name `"ABBS node #<N> port"`.
+Whether `FindPort()` succeeds for all expected node configurations
+and whether the port name is case-sensitive in practice must be
+confirmed on a live ABBS system.
+
+### RC values received [Runtime — planned]
+
+The adapter preserves raw RC values from `rxmsg->rm_Result1`.
+All documented RC values (0, 5, 20, other) must be confirmed
+against actual ABBS behaviour.
+
+### Result-string behaviour [Runtime — planned]
+
+The native helper extracts `rm_Result2` as a BSTR and prints it
+after `RESULT:`. Whether `rm_Result2` is populated for RC != 0 and
+whether its format matches expectations must be confirmed.
+
+### Missing-port behaviour [Runtime — planned]
+
+When the ABBS ARexx port is not found, `FindPort()` returns NULL.
+The native helper prints `ERROR:Port not found: <name>` and exits
+with code 1. The Python client raises `ArexxConnectionError`. This
+must be confirmed on a live system.
+
+### Timeout behaviour [Runtime — planned]
+
+`arexx-cli` uses Exec `PutMsg()` / `WaitPort()` / `GetMsg()` for
+ARexx message passing. `WaitPort()` blocks until ABBS replies (or
+a message arrives on the reply port). The Python layer enforces a
+subprocess timeout (default 30 s). Whether ABBS always replies
+within a bounded time is unknown.
+
+### RC=20 distinguishability [Runtime — planned]
+
+ABBS documentation states RC=20 means carrier loss OR timeout
+(DF-EVID-012, DF-EVID-041). The native transport does not add any
+mechanism to distinguish them. This limitation must be confirmed
+on a live system.
+
+### TIMELEFT format [Runtime — planned]
+
+The native transport returns the raw TIMELEFT result string without
+interpretation. The actual format (seconds, minutes, or formatted
+string) must be observed on a live ABBS system.
+
 ## Partial findings
 
 ### Shell door security (DF-EVID-007)
@@ -83,19 +133,23 @@ on a running system. [Partial]
 - Are there any watchdog or heartbeat mechanisms?
 - What is the startup sequence for a node?
 - Can a node be restarted without restarting the entire BBS?
+- Is the ARexx port name case-sensitive in practice?
+- Does `WaitPort()` ever return a message after node shutdown?
 
 ## Runtime verification required
 
 This entire document is a list of runtime verification items. The
 highest-priority items are:
 
-1. Measure actual timeout duration
-2. Trigger carrier loss and observe door behaviour
-3. Verify SHUTDOWN and EJECT ARexx commands
-4. Run two nodes simultaneously and observe isolation
-5. Test Shell door failure mode (does user actually get a shell?)
-6. Verify TIMELEFT return format
-7. Verify GETCONSTAT baud values on real connections
+1. Verify `arexx-cli` can find the ABBS port and send commands
+2. Confirm the actual TIMELEFT format
+3. Confirm RC=20 cannot be distinguished in practice
+4. Measure actual timeout duration
+5. Trigger carrier loss and observe door behaviour
+6. Verify SHUTDOWN and EJECT ARexx commands
+7. Run two nodes simultaneously and observe isolation
+8. Test Shell door failure mode (does user actually get a shell?)
+9. Verify GETCONSTAT baud values on real connections
 
 ## Evidence registry
 
@@ -115,3 +169,5 @@ highest-priority items are:
 - `docs/reference/doors.md` — Shell door security
 - `docs/reference/environment.md` — Runtime variable verification
 - `docs/spec/session-model.md` — Session fields requiring runtime validation
+- `src/doorforge/arexx/native/README.md` — Native ARexx transport build and usage
+- `src/doorforge/arexx/native/arexx_cli.c` — ANSI C helper source

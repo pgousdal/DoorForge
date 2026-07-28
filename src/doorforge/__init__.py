@@ -1,5 +1,21 @@
-"""DoorForge M0 host-side reference package."""
+"""DoorForge host-side reference package."""
 
-from .session import Session, ExitReason
+from .arexx import (
+    AmigaArexxClient,
+    ArexxAdapter,
+    ArexxClient,
+    ArexxResult,
+    abbs_port_name,
+)
+from .session import ExecuteResult, ExitReason, Session
 
-__all__ = ["Session", "ExitReason"]
+__all__ = [
+    "AmigaArexxClient",
+    "ArexxAdapter",
+    "ArexxClient",
+    "ArexxResult",
+    "ExecuteResult",
+    "ExitReason",
+    "Session",
+    "abbs_port_name",
+]

@@ -11,9 +11,11 @@ utilities for Amiga BBS software. The first target is **ABBS 3.20**.
 | M0.1 — Architecture and M1 planning | Complete |
 | M1 — Verified ABBS documentation | Complete |
 | M1.1 — Session API validation | Complete |
-| M2 — First verified ARexx adapter | Planned |
-| M3 — Shell/Paragon adapters | Planned |
-| M4 — Native ABBS runtime | Planned |
+| M2 — First verified ARexx adapter | Complete |
+| M2.1 — Evidence-safe API hardening | Complete |
+| M3 — Native Amiga ARexx transport | Complete |
+| M3.1 — Native build validation & corrections | Active |
+| M4 — Shell/Paragon adapters | Planned |
 | M5 — OpenDoorSpecification integration | Planned |
 | M6+ — Additional BBS adapters | Future |
 
@@ -88,12 +90,26 @@ Produced field-by-field classifications, ExitReason review, terminal
 capability analysis, and connected state analysis. Confirmed the primary
 integration surface is ARexx, not a separate ABBS script format.
 
-### M2 — First verified ARexx adapter (next)
+### M2 — First verified ARexx adapter (complete)
 
-Build a host-testable ARexx adapter that constructs a `Session` using
-verified ARexx commands (NODENUMBER, USERNAME, TIMELEFT, GETCONSTAT)
-and invokes Type A (ARexx) doors via the documented port protocol.
+Host-tested ARexx adapter core and client abstraction.  Constructs a
+`Session` using verified ARexx commands (NODENUMBER, USERNAME, TIMELEFT,
+GETCONSTAT, SYSOP) and invokes Type A (ARexx) doors.  Returns an
+`ExecuteResult` preserving raw RC alongside the semantic exit reason.
 See `docs/reference/` for the full evidence base.
+
+### M2.1 — Evidence-safe API hardening (complete)
+
+Corrected the provisional API to represent unavailable and ambiguous ABBS
+values faithfully rather than fabricating plausible defaults:
+
+- `user_id` → `int | None` (None when unsupported, instead of 0)
+- `security_level` → `int | None` (None when unsupported; boolean
+  privilege captured in `is_sysop: bool`)
+- RC=20 → `CARRIER_LOSS_OR_TIMEOUT` (honest combined value instead of
+  arbitrarily picking `carrier_loss`)
+- Added `ExecuteResult` with raw RC preservation
+- Fixed premature 1.0.0 versioning to 0.3.0
 
 ### M3 — Shell/Paragon adapter
 
